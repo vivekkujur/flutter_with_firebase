@@ -1,3 +1,4 @@
+import 'package:android_fb_flutter/view/firestore_home_screen.dart';
 import 'package:android_fb_flutter/view/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.deepPurple
 
       ),
-        home: const HomeScreen(),
+        home: const FirestoreHomeScreen(),
     );
   }
 }
