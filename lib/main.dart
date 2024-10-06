@@ -22,14 +22,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Flutter Firebase',
+      title: 'Flutter Firebase realtime / Firestore  ',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
           primarySwatch: Colors.deepPurple
 
       ),
-        home: const FirestoreHomeScreen(),
+        home: const HomeScreen(),
     );
   }
 }
